@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>820</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>COMPLAINT MANAGEMENT</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="complaintTable">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>721</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 0, 0);
+font: 75 italic 12pt &quot;Bodoni MT&quot;;
+background-image: url('C:/Users/USER/Downloads/Project_DB(updated ui)/tbg.jpeg')</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>ComplaintID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>OrderID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Complaint</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Resolved</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="ChangeStatuspushButton">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>380</y>
+      <width>171</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 0, 0);
+font: 75 italic 12pt &quot;Bodoni MT&quot;;
+background-image: url('C:/Users/USER/Downloads/Project_DB(updated ui)/bg.jpeg')
+</string>
+    </property>
+    <property name="text">
+     <string>Change Status</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>360</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 12pt &quot;Bodoni MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Complaint ID:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>390</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 12pt &quot;Bodoni MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Resolved(Y/N):</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ComplaintIDText">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>360</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="StatusText">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>390</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>820</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

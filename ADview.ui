@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>825</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(236, 236, 236)</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>891</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url('C:/Users/USER/Downloads/Project_DB(updated ui)/tbg.jpeg');
+</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>20</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>THURSDAY</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>40</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>07-12-2023</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="seller">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>160</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 italic 16pt &quot;Bodoni MT&quot;;
+color: rgb(85, 0, 0);
+background-color: rgb(242, 199, 191);</string>
+   </property>
+   <property name="text">
+    <string>SELLER INFO</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>60</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(85, 0, 0);
+font: 75 italic 36pt &quot;Bodoni MT&quot;;
+background-image: url('C:/Users/USER/Downloads/Project_DB(updated ui)/tbg.jpeg');</string>
+   </property>
+   <property name="text">
+    <string>ADMIN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="distributor">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>450</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 italic 16pt &quot;Bodoni MT&quot;;
+color: rgb(85, 0, 0);
+background-color: rgb(242, 199, 191);</string>
+   </property>
+   <property name="text">
+    <string>DISTRIBUTOR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="warehouse">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>160</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 italic 16pt &quot;Bodoni MT&quot;;
+color: rgb(85, 0, 0);
+background-color: rgb(242, 199, 191);</string>
+   </property>
+   <property name="text">
+    <string>WAREHOUSE INFO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="orderbutton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>450</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 italic 16pt &quot;Bodoni MT&quot;;
+color: rgb(85, 0, 0);
+background-color: rgb(242, 199, 191);</string>
+   </property>
+   <property name="text">
+    <string>ORDERS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="complaints">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>300</y>
+     <width>311</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 italic 16pt &quot;Bodoni MT&quot;;
+color: rgb(85, 0, 0);
+background-color: rgb(242, 199, 191);</string>
+   </property>
+   <property name="text">
+    <string>COMPLAINTS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customer">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>300</y>
+     <width>311</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 italic 16pt &quot;Bodoni MT&quot;;
+color: rgb(85, 0, 0);
+background-color: rgb(242, 199, 191);</string>
+   </property>
+   <property name="text">
+    <string>CUSTOMER INFO</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

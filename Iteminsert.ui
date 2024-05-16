@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>823</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>231</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>WAREHOUSE&gt;&gt; INVENTORY&gt;&gt; ITEMS</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="itemtable">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>751</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 0, 0);
+font: 75 italic 12pt &quot;Bodoni MT&quot;;
+background-image: url('C:/Users/USER/Downloads/Project_DB(updated ui)/tbg.jpeg')</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>Item ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Item Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Category ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Collection</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Description</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>231</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SELECT ITEM:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>350</y>
+      <width>231</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 11pt &quot;Bodoni MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>INSERT ITEM:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="itemName">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>380</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>390</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 11pt &quot;Bodoni MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Item Name:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="categoryDropdown">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>420</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Co-ord sets</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Long Dresses</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pants and Jeans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Skirts</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TankTops</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shirts</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Formal Wear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>JumpSuit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Scarfs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Coats and Blazers</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Puffers and Jackets</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sweaters and Cardigans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hoodie and Sweatshirts</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Long Dresses</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Formal Wear</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bottoms</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Co-ord sets</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>410</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 11pt &quot;Bodoni MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Category Name:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="categoryIDLine">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>460</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>460</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 11pt &quot;Bodoni MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Category ID:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="CollectionDropdown">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>420</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Winter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Summer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Year-Round</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="description">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>460</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="unitPrice">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>380</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>420</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 11pt &quot;Bodoni MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Collection:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>380</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 11pt &quot;Bodoni MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Unit Price:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>460</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 11pt &quot;Bodoni MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Description:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="insertButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>500</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url('C:/Users/USER/Downloads/Project_DB(updated ui)/bg.jpeg');
+font: 75 italic 10pt &quot;Bodoni MT&quot;;
+color: rgb(85, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>INSERT NEW ITEM</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>823</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
